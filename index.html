@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Super-Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form action="GET" name="calculator">
+            <h1>Super Calculadora</h1>
+            <input type="textfield" name="ans" id="ans" value="">
+            <br>
+            <input type="button" value="1" onClick="concatenateAns('1')">
+            <input type="button" value="2" onClick="concatenateAns('2')">
+            <input type="button" value="3" onClick="concatenateAns('3')">
+            <input type="button" value="+" onClick="concatenateAns('+')">
+            <br>
+            <input type="button" value="4" onClick="concatenateAns('4')">
+            <input type="button" value="5" onClick="concatenateAns('5')">
+            <input type="button" value="6" onClick="concatenateAns('6')">
+            <input type="button" value="-" onClick="concatenateAns('-')">
+            <br>
+            <input type="button" value="7" onClick="concatenateAns('7')">
+            <input type="button" value="8" onClick="concatenateAns('8')">
+            <input type="button" value="9" onClick="concatenateAns('9')">
+            <input type="button" value="*" onClick="concatenateAns('*')">
+            <br>
+            <input type="button" value="0" onClick="concatenateAns('0')">
+            <input type="reset" value="c">
+            <input type="button" value="/" onClick="concatenateAns('/')">
+            <input type="button" value="=" onClick="calculate()">
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
