@@ -3,5 +3,8 @@ let concatenateAns = function(value){
 }
 
 let calculate = function(){
-    document.calculator.ans.value = eval(document.calculator.ans.value)
+    let operation = document.calculator.ans.value;
+    let result = eval(operation)
+    document.calculator.ans.value = result; 
+    document.getElementById("history").innerHTML += "<h1> "+operation+"="+result+" </h1>";
 }

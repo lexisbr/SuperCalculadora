@@ -43,3 +43,14 @@ h1{
     font-family: monospace;
     font-size: 22px;
 }
+
+.history {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: solid 5px white;
+    padding-bottom: 40px;
+    margin: auto;
+    background: black;
+    margin-top: 70px;
+  }
